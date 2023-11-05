@@ -1,8 +1,4 @@
-.text-box h3 {
-    color: pink;
-}
-
-
+.text-box  > h3:first-child { color: pink;}
 
 #greycol {
     color: grey;
@@ -12,7 +8,7 @@
     color: red;
 }
 
-.text-box  {
+.text-box p:nth-child(7) {
     color: green;
 }
 
