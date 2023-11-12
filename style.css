@@ -15,3 +15,10 @@
 .yellow  {
     color: yellow;
 }
+
+div ul:first-child li {color: aqua;}
+div ul:nth-child(3) li {color: blueviolet;}
+div ul:nth-child(2n) {color:yellow}
+div ul:nth-child(n + 5) {color: darkgreen;}
+div ul li:nth-child(4n) {color: blue;}
+div ul li:nth-child(-n + 1) {color: darkred;}
